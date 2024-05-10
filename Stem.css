@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('iccwall1.jpg'); /* Add background image to the entire brochure */
+    background-size:59;
+    background-position: center;
+    height: 6vh;
+    
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #39A7FF;
+    
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: blue;
+   
+  }
+  
+  .topnav a.active {
+    background-color: #1640D6;
+    color: white;
+  }
+
+.brochure {
+
+    width: 100vw;
+    height: 110vh;
+}
+
+.panel {
+    flex: 1;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.front {
+    background-image: url('fornt-background.jpg');
+}
+
+.middle {
+    background-image: url('middle-background.jpg');
+}
+
+.back {
+    background-image: url('back-background.jpg');
+}
+
+.content {
+    padding: 20px;
+    background: rgba(255, 238, 238, 0.545); /* Add a semi-transparent white background for better readability */
+}
+
+.panel h1 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional layer styles */
+.additional-layer {
+    background-color: skyblue;
+    text-align: center;
+    padding: 2px;
+    
+}
+
+.additional-layer h2 {
+    margin-top: -10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
+ 
+ footer a{
+    background-color:rgb(21, 67, 119);
+    border-radius: 5px;
+    display:inline-flex;
+    padding: 0.4em;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;  
+    color:white;
+ }
+.background-Z {
+    background-image: url('icc.jpg');
+}
+
+
+.background-A {
+    background-image: url('icc.jpg');
+}
+
+.background-B {
+    background-image: url('kalebasa_1.jpg');
+}
+
+.background-C {
+    background-image: url('retreat.jpg');
+}
